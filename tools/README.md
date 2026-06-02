@@ -226,3 +226,33 @@ eg：
 ```
 %script_path%bintobin.exe -vf %script_path%..\app\source\app\app_cfg.h -b %boot_bin_dir% -a %script_path%..\output -o %script_path%..\output -boot-addr 8000000 -app-addr 0x8010000
 ```
+
+## weekly_commit_report.py
+
+### 功能
+
+按周统计提交内容，默认只统计当前 git 用户（`git config user.name`）的提交，且默认不包含 merge 提交。
+
+### 使用方法
+
+在仓库根目录执行：
+
+```bash
+python tools/weekly_commit_report.py
+```
+
+#### 常见参数
+
+```bash
+# 统计最近4周
+python tools/weekly_commit_report.py --since "4 weeks ago"
+
+# 指定作者
+python tools/weekly_commit_report.py --author "Your Name"
+
+# 指定时间范围
+python tools/weekly_commit_report.py --since "2026-01-01" --until "2026-12-31"
+
+# 包含 merge 提交
+python tools/weekly_commit_report.py --include-merges
+```
