@@ -1,0 +1,25 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="xA40Zzg7W2QSaCt4Nw8S">
+    <mxGraphModel dx="2739" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V1rRg352htdC4FOJhmBy-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="340" width="390" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="V1rRg352htdC4FOJhmBy-1" value="MCU" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="V1rRg352htdC4FOJhmBy-2" value="&lt;b&gt;EEPROM&lt;/b&gt;&lt;div&gt;&lt;b&gt;(AT24CM01-SSHD-T)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; color=&quot;#6600cc&quot;&gt;WP-PA9&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; color=&quot;#6600cc&quot;&gt;SCL-PA8&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; color=&quot;#6600cc&quot;&gt;SDA-PC9&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="475" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="V1rRg352htdC4FOJhmBy-3" value="&lt;b&gt;SRAM&lt;/b&gt;&lt;div&gt;&lt;b&gt;(VTI7064MSME)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;font-size: 8px;&quot;&gt;EXMC_NE0-PD7&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;font-size: 8px;&quot;&gt;EXMC_CLK-PD3&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;font-size: 8px;&quot;&gt;EXMC_D0-PD14&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(102, 0, 204); font-size: 8px;&quot;&gt;EXMC_D1-PD15&lt;/span&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(102, 0, 204); font-size: 8px;&quot;&gt;EXMC_D2-PD0&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 0, 204); font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(102, 0, 204); font-size: 8px;&quot;&gt;EXMC_D3-PD1&lt;/span&gt;&lt;span style=&quot;color: rgb(102, 0, 204); font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=2;spacingTop=0;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="570" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="V1rRg352htdC4FOJhmBy-4" value="&lt;b&gt;PHY&lt;/b&gt;&lt;div&gt;&lt;b&gt;(DP83848K)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;font-size: 8px;&quot;&gt;ETH_RMII_TX_EN-PB11&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ETH_RMII_TXD0-PB12&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ETH_RMII_TXD1-PB13&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ETH_RMII_RXD0-PC4&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ETH_RMII_RXD1-PC5&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ETH_RMII_CRS_DV-PA7&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ETH_RMII_REF_CLK-PA1&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ETH_MDC-PC1&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#6600cc&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ETH_MDIO-PA2&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="270" width="120" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
